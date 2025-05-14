@@ -5,7 +5,7 @@
 }
 
 .body{
-    background: url("../bg.jpg"); 
+    background: url("bg.jpg"); 
     min-height: 100vh;
     background-size: 110vw 100vh;
     background-repeat: no-repeat;
@@ -63,7 +63,7 @@ h3{
 }
 
 #board{
-    background: url("../image.png");
+    background: url("image.png");
     
     /* background: radial-gradient(rgb(249, 255, 170), rgba(193, 250, 87, 0.854)); */
     width: 85vmin;
@@ -101,7 +101,7 @@ h3{
     
     height: 120%;
     width: 120%;
-    background: url("../raspberry-clipart-cartoon-style-vector-illustration_761413-4048-removebg-preview.png");
+    background: url("raspberry-clipart-cartoon-style-vector-illustration_761413-4048-removebg-preview.png");
     background-size: contain;
    
     /* border: .25vmin solid black; */

@@ -5,7 +5,7 @@
 }
 
 .body{
-    background: url("/Snake-Game/bg.jpg");
+    background: url("bg.jpg");
     min-height: 100vh;
     background-size: 110vw 100vh;
     background-repeat: no-repeat;

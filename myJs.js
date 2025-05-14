@@ -124,9 +124,9 @@ else{
 window.requestAnimationFrame(main);
 window.addEventListener('keydown', e => {
     // Only play sound AFTER user presses a key
-    // if (!musicSound.played.length) {
-    //     musicSound.play().catch(err => console.log("Music autoplay blocked:", err));
-    // }
+    if (!musicSound.played.length) {
+        musicSound.play().catch(err => console.log("Music autoplay blocked:", err));
+    }
 
     // moveSound.play().catch(err => console.log("Move sound blocked:", err));
     // console.log(e.key); // Check raw key value if needed
